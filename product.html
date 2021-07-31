@@ -1,0 +1,249 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fas fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fas fa-times" id="close-btn" onclick="closemenu()"></i>
+            <a href="index.html"><img src="images/logos-.jpg" class="logo"></a>
+            <input type="text" class="form-control">
+            <span class="input-group-text"><i class="fas fa-search"></i></span>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><i class="fas fa-shopping-basket"></i>cart</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+        </div>
+    </div>
+
+<!-------------Single Product----------------->
+<section class="single-product">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div id="product-slider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/pic-1.jpg" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/pic-2.jpg" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/pic-3.jpg" class="d-block">
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-7">
+                <p class="new-arrival text-center">NEW</p>
+                <h2>Men's Denim Shirts-Blue Color</h2>
+                <p>Product Code:IRSC2021</p>
+
+
+                <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <p class="price">USD $15.00</p>
+                        <p><b>Availability:</b>In Stock</p>
+                        <p><b>Condition:</b>New</p>
+                        <p><b>Brand:</b>XYZ Company</p>
+                        <label>Quantity:</label>
+                        <input type="text" value="1">
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+</section>
+<!-- ----------------product-description--------------------------- -->
+<section class="product-description">
+    <div class="container">
+        <h6>Product Description</h6>
+        <p>Nowadays “denim” usually refers to a cotton twill fabric, meaning it has a diagonal weave made up of two threads in one direction (the weft) passing under two or more warp threads, though the diagonal appearance of the twill is quite subtle.
+            Thus, the denim shirt is best for less formal tailoring like a cotton suit or a sport coat and odd trousers.
+            Denim exists in various weights, and shirts, especially fine shirting that can be worn with tailoring, would be lighter weight than the denim used for jeans. The name of the fabric originates from the French “de Nimes,” for the place where the weave originated, though it was first used extensively in Britain before it saw explosive popularity in the United States via jeans manufacturer Levi Strauss. Denim is usually thought of as being dyed blue with indigo, but it can appear in many colors. For example, Empress Mills in Lancashire has more than 40 shades of plain denims. The strength of denim is its durability, which made it the cloth of choice for laborers, farmers, and cowboys.  This is owed to the properties of the weave.</p>
+            <hr>
+    </div>
+    <div class="container">
+        <div class="title-box">
+            <h2>Similar</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="images/img-8.jpg" >
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div> 
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <h3>mobile phone</h3>
+                    <h5>$200.00</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="images/img-9.jpg" >
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div> 
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                   
+                    <h3>Smart Watch</h3>
+                    <h5>$50.00</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="images/img-10.jpg" >
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div> 
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h3>Formal Shoes</h3>
+                    <h5>$500.00</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="images/img-11.jpg" >
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div> 
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <h3>LED Tv</h3>
+                    <h5>$600.00</h5>
+                </div>
+            </div>
+            
+               
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!---------------------footer-------------------->
+    <section class="footer">
+        <div class="container tex-center">
+        <div class="row">
+            <div class="col-md-3">
+                <h1>Useful Links</h1>
+                <p>Privacy Policy</p>
+                <p>Terms of Use</p>
+                <p>Return Policy</p>
+                <p>Discount Coupons</p>
+            </div>
+            <div class="col-md-3">
+                <h1>Company</h1>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Career</p>
+                <p>Affiliate</p>
+            </div>
+            <div class="col-md-3">
+                <h1>Follow Us On</h1>
+                <p><i class="fab fa-facebook"></i>Facebook</p>
+                <p><i class="fab fa-youtube"></i>Youtube</p>
+                <p><i class="fab fa-linkedin-in"></i>Linked in</p>
+                <p><i class="fab fa-twitter"></i>  Twitter</p>
+            </div>
+            <div class="col-md-3 footer-image">
+                <h1>Download App</h1>
+                <img src="images/app-logo.jpg">
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Made with <i class="fas fa-heart"></i> by <b>Deeksha Bhagwat</b> </p>
+    </div>
+    </section>
+    
+    
+</body>
